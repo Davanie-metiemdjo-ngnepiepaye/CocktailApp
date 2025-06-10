@@ -9,8 +9,6 @@ Une application Android développée en **Kotlin + Jetpack Compose**, permettant
 - ❤️ Ajouter / supprimer des favoris
 - 🔍 Rechercher des catégories
 
-
-
 ---
 
 ## 🚀 Fonctionnalités
@@ -48,7 +46,7 @@ Une application Android développée en **Kotlin + Jetpack Compose**, permettant
 
 ## 📦 APK
 
-👉 [Télécharger l’APK ici](https://github.com/TON-NOM-UTILISATEUR/CocktailApp/releases/download/v1.0/app-debug.apk)
+👉 [Télécharger l’APK ici](https://github.com/Davanie-metiemdjo-ngnepiepaye/CocktailApp/releases/download/v1.0/app-debug.apk)
 
 ---
 
@@ -56,6 +54,3 @@ Une application Android développée en **Kotlin + Jetpack Compose**, permettant
 
 Davanie Metiemdjo Ngnepiepaye  
 GitHub : [@Davanie-metiemdjo-ngnepiepaye](https://github.com/Davanie-metiemdjo-ngnepiepaye)
-
-
-
