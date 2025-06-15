@@ -11,7 +11,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.compose.ui.graphics.vector.ImageVector
 
-// Onglets définis ici
+
 sealed class BottomNavItem(val route: String, val icon: ImageVector, val title: String) {
     object Random : BottomNavItem("random", Icons.Default.Home, "Aléatoire")
     object Categories : BottomNavItem("categories", Icons.Default.List, "Catégories")

@@ -35,7 +35,7 @@ class CocktailViewModel @Inject constructor(
     val favorites: StateFlow<List<FavoriteCocktail>> get() = _favorites
 
     init {
-        // Charger les favoris depuis la base de données au démarrage
+
         viewModelScope.launch {
             favoriteDao.getAllFavorites().collect {
                 _favorites.value = it
@@ -43,7 +43,7 @@ class CocktailViewModel @Inject constructor(
         }
     }
 
-    // === API Calls ===
+
 
     fun fetchRandomCocktail() {
         viewModelScope.launch {
@@ -89,7 +89,7 @@ class CocktailViewModel @Inject constructor(
         }
     }
 
-    // === Gestion des favoris ===
+
 
     fun addToFavorites(cocktail: Cocktail): Unit {
         viewModelScope.launch {

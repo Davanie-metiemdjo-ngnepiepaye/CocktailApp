@@ -31,7 +31,7 @@ fun CocktailDetailScreen(
 
     Column(modifier = Modifier.padding(16.dp)) {
 
-        // Bouton retour
+
         Button(
             onClick = { navController.popBackStack() },
             modifier = Modifier.padding(bottom = 16.dp)

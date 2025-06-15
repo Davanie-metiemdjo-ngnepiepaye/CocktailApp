@@ -30,7 +30,7 @@ fun CategoryCocktailsScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .clickable {
-                            // 🔗 Navigation vers l’écran de détail du cocktail
+
                             navController.navigate("cocktail/${cocktail.idDrink}")
                         }
                         .padding(vertical = 8.dp),

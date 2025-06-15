@@ -36,7 +36,7 @@ fun NavGraph(
             CategoryListScreen(navController)
         }
 
-        // Liste des cocktails d'une catégorie
+
         composable("category/{category}") { backStackEntry ->
             val category = backStackEntry.arguments?.getString("category")?.replace("_", " ") ?: ""
             val viewModel: CocktailViewModel = hiltViewModel()
@@ -49,7 +49,7 @@ fun NavGraph(
             CategoryCocktailsScreen(cocktails, navController)
         }
 
-        // Détail d’un cocktail
+
         composable("cocktail/{id}") { backStackEntry ->
             val id = backStackEntry.arguments?.getString("id") ?: ""
             val viewModel: CocktailViewModel = hiltViewModel()
