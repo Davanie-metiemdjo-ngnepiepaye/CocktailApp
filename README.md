@@ -11,7 +11,7 @@ Une application Android développée en **Kotlin + Jetpack Compose**, permettant
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 | Fonction                | Détails                                  |
 |------------------------|-------------------------------------------|
@@ -25,32 +25,32 @@ Une application Android développée en **Kotlin + Jetpack Compose**, permettant
 
 ---
 
-## 🧑‍💻 Technologies
 
-- 🛠️ Kotlin
-- 🖌️ Jetpack Compose
-- 🧭 Navigation Compose
-- 💾 Room DB (pour les favoris)
-- 🌐 Retrofit (API)
-- 🧪 Hilt (DI)
-- 📦 Coil (chargement images)
+
+-  Kotlin
+-  Jetpack Compose
+-  Navigation Compose
+-  Room DB (pour les favoris)
+-   Retrofit (API)
+-  Hilt (DI)
+-  Coil (chargement images)
 
 ---
 
-## 📱 Compatibilité
+
 
 - API min : 21 (Android 5.0)
 - Testé sur : Émulateur + Appareil physique (Pixel 6 API 34)
 
 ---
 
-## 📦 APK
+
 
 👉 [Télécharger l’APK ici](https://github.com/Davanie-metiemdjo-ngnepiepaye/CocktailApp/releases/download/v1.0/app-debug.apk)
 
 ---
 
-## 👤 Auteur
+
 
 Davanie Metiemdjo Ngnepiepaye  
 GitHub : [@Davanie-metiemdjo-ngnepiepaye](https://github.com/Davanie-metiemdjo-ngnepiepaye)
